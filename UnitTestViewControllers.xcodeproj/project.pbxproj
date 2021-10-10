@@ -15,6 +15,8 @@
 		272B51D426F78973005B21B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272B51D226F78973005B21B4 /* LaunchScreen.storyboard */; };
 		272B51DF26F78973005B21B4 /* UnitTestViewControllersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B51DE26F78973005B21B4 /* UnitTestViewControllersTests.swift */; };
 		272B51EA26F78973005B21B4 /* UnitTestViewControllersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B51E926F78973005B21B4 /* UnitTestViewControllersUITests.swift */; };
+		27CE9E4A27131127000D762A /* XIBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE9E4827131127000D762A /* XIBViewController.swift */; };
+		27CE9E4B27131127000D762A /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27CE9E4927131127000D762A /* XIBViewController.xib */; };
 		27D51BB12709EF460067CE4C /* StoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D51BB02709EF460067CE4C /* StoryboardViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		272B51E526F78973005B21B4 /* UnitTestViewControllersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestViewControllersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		272B51E926F78973005B21B4 /* UnitTestViewControllersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestViewControllersUITests.swift; sourceTree = "<group>"; };
 		272B51EB26F78973005B21B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CE9E4827131127000D762A /* XIBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBViewController.swift; sourceTree = "<group>"; };
+		27CE9E4927131127000D762A /* XIBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
 		27D51BB02709EF460067CE4C /* StoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,8 @@
 				272B51D026F78973005B21B4 /* Assets.xcassets */,
 				272B51D226F78973005B21B4 /* LaunchScreen.storyboard */,
 				272B51D526F78973005B21B4 /* Info.plist */,
+				27CE9E4827131127000D762A /* XIBViewController.swift */,
+				27CE9E4927131127000D762A /* XIBViewController.xib */,
 			);
 			path = UnitTestViewControllers;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CE9E4B27131127000D762A /* XIBViewController.xib in Resources */,
 				272B51D426F78973005B21B4 /* LaunchScreen.storyboard in Resources */,
 				272B51D126F78973005B21B4 /* Assets.xcassets in Resources */,
 				272B51CF26F78971005B21B4 /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CE9E4A27131127000D762A /* XIBViewController.swift in Sources */,
 				272B51CC26F78971005B21B4 /* ViewController.swift in Sources */,
 				27D51BB12709EF460067CE4C /* StoryboardViewController.swift in Sources */,
 				272B51C826F78971005B21B4 /* AppDelegate.swift in Sources */,

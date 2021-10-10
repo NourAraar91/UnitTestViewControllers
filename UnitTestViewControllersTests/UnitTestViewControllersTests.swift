@@ -17,4 +17,11 @@ class UnitTestViewControllersTests: XCTestCase {
         sut.loadViewIfNeeded()
         XCTAssertNotNil(sut.label)
     }
+    
+    func test_loadingXIBBasedViewController() {
+        let sut = XIBViewController()
+        sut.loadViewIfNeeded()
+        XCTAssertNotNil(sut.label)
+    }
+    
 }
